@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 90rem;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--eggshell);
+}
+:root{
+    --white: hsl(0, 0%, 100%);
+    --rosewhite: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --lightgrey: hsl(30, 18%, 87%);
+    --wengebrown: hsl(30, 10%, 34%);
+    --darkcharcoal: hsl(24, 5%, 18%);
+    --nutmet: hsl(14, 45%, 36%);
+    --darkreaspberry: hsl(332, 51%, 32%);
+}
+img {
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--darkcharcoal);
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.overview {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: var(--wengebrown);
+        font-size: 1rem;
+}
+#prepContainer {
+    background-color: var(--rosewhite);
+    padding: 1rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#prepContainer h2{
+    color: var(--darkreaspberry);
+}
+#prepContainer ul li {
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: var(--wengebrown);
+}
+#prepContainer span {
+    font-weight: 600;
+    color: var(--wengebrown);
+}
+#mainContainer {
+    margin-top: 4rem;
+    padding: 3rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    max-width: 60rem;
+}
