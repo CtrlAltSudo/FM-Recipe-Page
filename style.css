@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    max-width: 90rem;
+    max-width: 47rem;
     width: 100%;
     margin: 0 auto;
     background-color: var(--eggshell);
@@ -33,7 +33,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     color: var(--darkcharcoal);
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0;
 }
 .overview {
@@ -51,18 +51,41 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    border-radius: 1rem;
 }
 #prepContainer h2{
     color: var(--darkreaspberry);
 }
 #prepContainer ul li {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     font-weight: 400;
     color: var(--wengebrown);
+    padding-left: 2rem;
 }
-#prepContainer span {
+li {
+    padding-left: 2rem;
+    margin-bottom: 8px;
+    font-family: "Outfit", sans-serif;
+    color: var(--wengebrown);
+}
+#prepContainer span, span {
     font-weight: 600;
     color: var(--wengebrown);
+    font-family: "Outfit", sans-serif;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--nutmet);
+    font-size: 1.8rem;
+}
+table {
+    width: 100%;
+}
+table tr {
+    border-bottom: 3px solid red;
 }
 #mainContainer {
     margin-top: 4rem;
