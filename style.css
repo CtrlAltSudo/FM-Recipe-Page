@@ -55,18 +55,23 @@ h1 {
 }
 #prepContainer h2{
     color: var(--darkreaspberry);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding-left: 1rem;
 }
 #prepContainer ul li {
     margin-bottom: 8px;
     font-weight: 400;
     color: var(--wengebrown);
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 li {
     padding-left: 2rem;
     margin-bottom: 8px;
     font-family: "Outfit", sans-serif;
     color: var(--wengebrown);
+    font-size: 1rem;
 }
 #prepContainer span, span {
     font-weight: 600;
@@ -76,6 +81,7 @@ li {
 h2:nth-of-type(2),
 h2:nth-of-type(3){
     border-top: 1px solid var(--lightgrey);
+    padding-top: 1.5rem;
 }
 
 h2 {
@@ -87,10 +93,29 @@ h2 {
 }
 table {
     width: 100%;
+    border-collapse: collapse;
 }
 table tr td {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--lightgrey);
+    padding: 0.625rem 0 0.625rem 0;
+    font-size: 1rem;
+    color: var(--nutmet);
 }
+table tr td:nth-child(1){
+    padding-left: 1rem;
+    font-family: "Outfit", sans-serif;
+    color: var(--wengebrown);
+    font-size: 1rem;
+}
+table tr td:nth-child(2){
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--darkreaspberry);
+    font-size: 1rem;
+}
+
 #mainContainer > table:nth-child(11) > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(1),
 #mainContainer > table:nth-child(11) > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(2) {
     border: none;
@@ -104,3 +129,23 @@ table tr td {
     border-radius: 1rem;
     max-width: 60rem;
 }
+
+
+@media only screen and (max-width: 600px) {
+    #mainContainer {
+      padding: 0;
+      margin-top: 0;
+    }
+    h2, .overview, #prepContainer, ol, table, h1, #mainContainer > ul:nth-child(6){
+        margin: 1.5rem;
+    }
+    html body div#mainContainer div#prepContainer h2 {
+        padding-left: 0;
+    }
+    #prepContainer {
+        padding: 1rem 0 1rem 0;
+    }
+    img { 
+        border-radius: 0;
+    }
+  }
