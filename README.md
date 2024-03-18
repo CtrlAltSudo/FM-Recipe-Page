@@ -19,7 +19,7 @@ This is a Frontend Mentor challenge, click the link above to visit the challenge
 
 ## What I learnt 
 
-It's been another while, just dusting off the cobwebs...
+It's been another while, just dusting off the cobwebbs...
 
 ## Authors
 
